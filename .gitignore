@@ -1,0 +1,20 @@
+# Ignore les fichiers/fichiers de répertoire générés automatiquement
+node_modules/
+npm-debug.log
+yarn-error.log
+.DS_Store
+
+# Les dépendances peuvent être installées via npm, yarn, etc.
+# Cela garantit que les dépendances ne sont pas versionnées dans le dépôt Git
+# À moins que vous ne souhaitiez publier votre projet sur npm, ne versionnez pas les modules.
+package-lock.json
+yarn.lock
+
+# Les fichiers de configuration générés automatiquement
+.env
+.env.local
+.env.*.local
+
+# Les fichiers de sauvegarde et les fichiers d'édition de texte
+*.swp
+*~

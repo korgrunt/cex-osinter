@@ -1,0 +1,40 @@
+cex-osinter(1)                                                                                          User Commands                                                                                          cex-osinter(1)
+
+NAME
+       cex-osinter - search account existing on platform from an email address
+
+SYNOPSIS
+       ./cex-osinter.sh [OPTION]... [FILE]...
+
+DESCRIPTION
+       Search account existing on platform from an email address
+
+       -help
+              Display this documentation
+
+       -build
+              build the docker image for an easy portability
+
+       -run
+              run the tools, youi just need to follow step
+
+       -version
+              output version information and exit
+
+EXAMPLES
+        ./cex-osinter.sh -help
+              Output the content of this file
+
+        ./cex-osinter.sh -build
+              Build th image docker
+
+        ./cex-osinter.sh -run
+              Run the tool for discover account about an email address
+
+        ./cex-osinter.sh -verion
+              Print version of the tools 
+
+       cex-osinter    Copy standard input to standard output.
+
+AUTHOR
+       Written by Naim Aouaichia.
